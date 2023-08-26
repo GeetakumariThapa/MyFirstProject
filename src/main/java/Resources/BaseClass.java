@@ -17,6 +17,12 @@ public class BaseClass{
 	 * Driver. get (url)				(method is initializeDriver())
 	 * import FileInputStream + Add throws Decleration for FileNotFoundException */
 	
+	/* first of all you should check optional object are on which page
+	 * if it is in same then you should code in same class of page
+	 * this Driver is from BaseClass 
+	 * constructor is already created thats why we have to put parameter here
+	 * we get the LoginPageObject because BaseClass extended */
+	
 		public Properties Prop;
 		public WebDriver Driver;
 	public void initializeDriver() throws IOException {
